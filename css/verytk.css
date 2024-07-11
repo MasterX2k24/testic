@@ -1,0 +1,561 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Layer1
+{
+   background-color: rgba(79,79,79,0.76);
+   background-image: none;
+   border-radius: 0px;
+   box-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+}
+#Layer3
+{
+   background-color: #F8F9FA;
+   background-image: none;
+   border-radius: 30px;
+   box-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text4 div
+{
+   text-align: center;
+}
+#wb_Icon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon1
+{
+   height: 84px;
+   width: 69px;
+}
+.Icon1
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.Icon1:before
+{
+   content: "\e30b";
+}
+#Icon1 i
+{
+   color: #FF0000;
+   display: inline-block;
+   font-size: 69px;
+   line-height: 84px;
+   vertical-align: middle;
+   width: 68px;
+}
+#wb_Icon1:hover #Icon1 i
+{
+   color: #FF0000;
+}
+#wb_Icon2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Icon2
+{
+   height: 58px;
+   width: 41px;
+}
+.Icon2
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.Icon2:before
+{
+   content: "\e0dc";
+}
+#Icon2 i
+{
+   color: #FF0000;
+   display: inline-block;
+   font-size: 41px;
+   line-height: 58px;
+   vertical-align: middle;
+   width: 40px;
+}
+#wb_Icon2:hover #Icon2 i
+{
+   color: #FF0000;
+}
+#ThemeableButton1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   display: inline-block;
+   position: relative;
+   vertical-align: middle;
+   user-select: none;
+   overflow: visible;
+   text-decoration: none;
+   cursor: pointer;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   vertical-align: top;
+}
+#ThemeableButton1 .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-left-radius: 0px;
+   border-top-left-radius: 0px;
+}
+#ThemeableButton1.ui-corner-all
+{
+   border-bottom-right-radius: 0px;
+   border-top-right-radius: 0px;
+}
+#ThemeableButton1.ui-button
+{
+   background-color: #F01122;
+   background-image: none;
+   border: 0px solid #0D6EFD;
+   color: #FFFFFF;
+}
+#ThemeableButton1.ui-state-hover, #ThemeableButton1.ui-button:hover
+{
+   border-color: #0A58CA;
+   background-color: #B22222;
+   background-image: none;
+   color: #FFFFFF;
+}
+#ThemeableButton1.ui-state-active, #ThemeableButton1.ui-button:active
+{
+   border-color: #0A53BE;
+   background-color: #B22222;
+   background-image: none;
+   color: #FFFFFF;
+}
+#Editbox1
+{
+   box-sizing: border-box;
+   line-height: 36px;
+   border: 1px solid #A9A9A9;
+   border-radius: 11px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 16px;
+   text-align: center;
+   width: 100%;
+   height: 100%;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_Editbox1
+{
+   position: relative;
+   margin: 0;
+}
+#Editbox1.is-valid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328A745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #28A745 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox1.is-invalid
+{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23DC3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23DC3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E") !important;
+   background-repeat: no-repeat !important;
+   background-position: center right calc(0.375em + 0.1875rem) !important;
+   background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+   border-color: #DC3545 !important;
+   padding-right: calc(1.5em + 0.75rem) !important;
+}
+#Editbox1.is-valid:focus
+{
+   border-color: #28A745 !important;
+   box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.25) !important;
+}
+#Editbox1.is-invalid:focus
+{
+   border-color: #DC3545 !important;
+   box-shadow: 0 0 0 4px rgba(220, 53, 69, 0.25)!important;
+}
+#wb_Editbox1 .invalid-feedback
+{
+   color: #DC3545;
+   display: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 12px;
+   margin-top: 0.25rem;
+   width: 100%;
+}
+#Editbox1.is-invalid ~ .invalid-feedback
+{
+   display: block;
+}
+#HorizontalLine1
+{
+   border-color: #808080;
+   border-style: solid;
+   border-bottom-width: 3px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Icon1
+{
+   position: absolute;
+   left: 311px;
+   top: 20px;
+   width: 69px;
+   height: 84px;
+   text-align: center;
+   z-index: 1;
+}
+#wb_Text4
+{
+   position: absolute;
+   left: 201px;
+   top: 157px;
+   width: 326px;
+   height: 71px;
+   text-align: center;
+   z-index: 3;
+}
+#Editbox1
+{
+}
+#HorizontalLine1
+{
+   position: absolute;
+   left: 177px;
+   top: 322px;
+   width: 374px;
+   z-index: 4;
+}
+#wb_Editbox1
+{
+   position: absolute;
+   left: 233px;
+   top: 239px;
+   width: 262px;
+   height: 46px;
+   z-index: 6;
+}
+#ThemeableButton1
+{
+   position: absolute;
+   left: 249px;
+   top: 347px;
+   width: 231px;
+   height: 50px;
+   z-index: 5;
+}
+#Layer1
+{
+   position: fixed;
+   text-align: center;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 15;
+}
+#wb_Icon2
+{
+   position: absolute;
+   left: 370px;
+   top: 44px;
+   width: 41px;
+   height: 58px;
+   text-align: center;
+   z-index: 2;
+}
+#Layer3
+{
+   position: fixed;
+   text-align: center;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   width: 728px;
+   height: 431px;
+   margin-left: auto;
+   margin-top: auto;
+   margin-right: auto;
+   margin-bottom: auto;
+   z-index: 7;
+}
+#Layer3_Container
+{
+   width: 970px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#Layer1_Container
+{
+   width: 970px;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+#Html2
+{
+   position: absolute;
+   left: 314px;
+   top: 104px;
+   width: 100px;
+   height: 31px;
+   z-index: 0;
+}
+@media only screen and (max-width: 969px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#Layer1
+{
+   visibility: visible;
+   display: block;
+}
+#Layer1_Container
+{
+   width: 320px;
+}
+#Layer3
+{
+   width: 299px;
+   height: 445px;
+   visibility: visible;
+   display: block;
+}
+#Layer3_Container
+{
+   width: 320px;
+}
+#Html2
+{
+   left: 133px;
+   top: 95px;
+   width: 32px;
+   height: 28px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text4
+{
+   left: 21px;
+   top: 147px;
+   width: 256px;
+   height: 71px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text4
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Icon1
+{
+   left: 115px;
+   top: 38px;
+   width: 40px;
+   height: 57px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#Icon1
+{
+   width: 40px;
+   height: 57px;
+}
+#Icon1 i
+{
+   line-height: 57px;
+   font-size: 40px;
+   width: 39px;
+}
+#wb_Icon2
+{
+   left: 149px;
+   top: 61px;
+   width: 27px;
+   height: 25px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#Icon2
+{
+   width: 27px;
+   height: 25px;
+}
+#Icon2 i
+{
+   line-height: 25px;
+   font-size: 25px;
+   width: 24px;
+}
+#ThemeableButton1
+{
+   left: 22px;
+   top: 345px;
+   width: 255px;
+   height: 46px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#ThemeableButton1
+{
+   font-size: 13px;
+   padding: 0;
+}
+#wb_Editbox1
+{
+   left: 14px;
+   top: 245px;
+   width: 271px;
+   height: 40px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#Editbox1
+{
+   padding: 4px 4px 4px 4px;
+   text-align: center;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+}
+#Editbox1
+{
+   line-height: 30px;
+}
+#HorizontalLine1
+{
+   left: 19px;
+   top: 325px;
+   width: 261px;
+   height: 6px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#HorizontalLine1
+{
+   border-color: #808080;
+   border-bottom-width: 6px;
+}
+}
+.center-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 10vh;
+}
+.loader-ball-6 {
+	height: 50px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loader-ball-6 > div {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	color: #F01122;
+	animation: anm-bl-6-move 1s linear infinite alternate;
+}
+@keyframes anm-bl-6-move {
+	0% {
+		box-shadow: -38px -12px, -14px 0, 14px 0, 38px 0;
+	}
+	33% {
+		box-shadow: -38px 0px, -14px -12px, 14px 0, 38px 0;
+	}
+	66% {
+		box-shadow: -38px 0px, -14px 0, 14px -12px, 38px 0;
+	}
+	100% {
+		box-shadow: -38px 0, -14px 0, 14px 0, 38px -12px;
+	}
+}

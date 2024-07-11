@@ -1,0 +1,9 @@
+NO ME HAGO CARGO SI CAMBIAS ALGO DEL CODIGO DEL PANEL Y LUEGO NO TE FUNCIONA.
+
+EL CODIGO NO SE TOCA, SOLO USAS DESDE EL SITIOWEB
+
+tusitioweb.com/panel-adm/login.php
+
+defecto:
+usuario: admin
+contraseña: admin033
